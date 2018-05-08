@@ -1,0 +1,58 @@
+Arguments: 
+  /Users/jthoma292/.nvm/versions/node/v8.9.4/bin/node /usr/local/Cellar/yarn/1.6.0/libexec/bin/yarn.js init
+
+PATH: 
+  /Users/jthoma292/.rbenv/shims:/Users/jthoma292/.nvm/versions/node/v8.9.4/bin:/Users/jthoma292/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  8.9.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/jthoma292/lit-loader/package.json: Unexpected token 
+   in JSON at position 124
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:109:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "lit-loader",
+    "version": "0.0.1",
+    "description": "Webpack loader to load external HTML files with javascript
+    string literals as LitElement TemplateResults",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "keywords": [
+      "webpack",
+      "require",
+      "text",
+      "loader"
+    ],
+    "author": "Justin Thomas",
+    "license": "ISC",
+    "bugs": {
+      "url": ""
+    },
+    "homepage": ""
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
